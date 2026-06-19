@@ -1,0 +1,5 @@
+[workspace]
+members = ["anchor-escrow", "native-escrow"]
+
+[workspace.metadata]
+description = "Stablecoin escrow monorepo with Anchor and native implementations"

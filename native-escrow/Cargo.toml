@@ -1,0 +1,7 @@
+[package]
+name = "native-escrow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Add SBF-compatible dependencies here

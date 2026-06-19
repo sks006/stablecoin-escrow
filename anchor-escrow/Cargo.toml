@@ -1,0 +1,16 @@
+[workspace]
+# 🧱 The Pointer Rule: This root file does not compile anything. 
+# It simply tells Cargo to look inside the "programs" folder to find your actual Rust smart contracts.
+members = [
+    "programs/*"
+]
+
+# This ensures all dependencies across your workspace resolve with the exact same compiler version
+resolver = "2"
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
+[profile.release.build-override]
+opt-level = 3

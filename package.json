@@ -1,0 +1,7 @@
+{
+  "name": "stablecoin-escrow",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No JS tests configured yet\""
+  }
+}

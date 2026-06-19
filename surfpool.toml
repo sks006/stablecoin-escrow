@@ -1,0 +1,5 @@
+[project]
+name = "stablecoin-escrow"
+
+[hydration]
+main = "tests/utils.ts"

@@ -1,0 +1,34 @@
+# Rust
+/target/
+**/target/
+**/*.rs.bk
+**/*.rs.orig
+
+# Anchor / Solana build artifacts
+/anchor-escrow/target/
+/anchor-escrow/programs/**/target/
+/anchor-escrow/programs/**/Cargo.lock
+/anchor-escrow/target/*
+
+# Node / JavaScript
+/node_modules/
+/npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# IDE / Editor
+/.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Environment
+.env
+.env.*
+
+# Misc
+/coverage/
