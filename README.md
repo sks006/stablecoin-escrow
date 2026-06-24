@@ -161,7 +161,7 @@ Below is a detailed benchmark comparison of the Anchor framework implementation 
 ![Anchor Performance Diagram](./diagrams/anchor_performance.png)
 
 #### 2. Native Bare-Metal Escrow Performance Profile
-![Native Performance Diagram](./diagrams/native_performance.png)
+![Native Performance Diagram](./diagrams/native_performance1.png)
 
 ---
 
