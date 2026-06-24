@@ -97,7 +97,7 @@ Overcomes the **Gatekeeper Paradox** by performing structural evaluation of acco
 * **Fee Bounded Ranges:** Instruction data parsing validates that `transfer_fee_bps <= 10000`. Any values outside this ceiling immediately exit with `EscrowError::InvalidAmount`.
 * **PDA Invariant Verification:** The exact address derivation parameters are verified explicitly:
 
-$$\text{Seeds} = [\text{"escrow"}, \text{maker\_pubkey}, \text{taker\_pubkey}, \text{mint\_pubkey}]$$
+
 
 
 
