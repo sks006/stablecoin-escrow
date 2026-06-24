@@ -1,34 +1,39 @@
-# Rust
-/target/
+# ── Rust & Solana Build Artifacts ────────────
+target/
 **/target/
 **/*.rs.bk
 **/*.rs.orig
 
-# Anchor / Solana build artifacts
-/anchor-escrow/target/
-/anchor-escrow/programs/**/target/
-/anchor-escrow/programs/**/Cargo.lock
-/anchor-escrow/target/*
+# ── Solana Test Environments ─────────────────
+test-ledger/
+.anchor/
+**/.anchor/
 
-# Node / JavaScript
-/node_modules/
-/npm-debug.log*
+# ── Node.js / TypeScript Dependencies ────────
+node_modules/
+**/node_modules/
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
-pnpm-lock.yaml
 
-# IDE / Editor
-/.vscode/
+# (Optional: Ignore lockfiles if you only want to commit package.json)
+# package-lock.json
+# yarn.lock
+
+# ── Keypairs & Environment ───────────────────
+*.json
+!Anchor.toml
+!package.json
+!tsconfig.json
+!programs/**/*.json
+!deploy/**/*.json
+.env
+.env.*
+
+# ── IDE / OS ─────────────────────────────────
+.vscode/
 .idea/
 *.swp
 *~
 .DS_Store
-
-# Environment
-.env
-.env.*
-
-# Misc
-/coverage/
