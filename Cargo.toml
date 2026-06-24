@@ -1,5 +1,19 @@
 [workspace]
-members = ["anchor-escrow", "native-escrow"]
+members = [
+    "native-escrow"
+]
 
-[workspace.metadata]
-description = "Stablecoin escrow monorepo with Anchor and native implementations"
+# 🛡️ THE FIREWALL
+exclude = [
+    "anchor-escrow"
+]
+
+# The resolver must sit directly inside the [workspace] table
+resolver = "2"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+overflow-checks = true

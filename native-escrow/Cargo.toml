@@ -3,5 +3,21 @@ name = "native-escrow"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+# `cdylib` commands the compiler to output a C-compatible dynamic library (.so) 
+# which is the only format the Solana runtime accepts. `lib` is retained for testing.
+crate-type = ["cdylib", "lib"]
+
+[features]
+# Required to prevent the `entrypoint!` macro from compiling twice when 
+# other programs or tests import this crate.
+no-entrypoint = []
+
 [dependencies]
-# Add SBF-compatible dependencies here
+solana-program = "1.18.26"
+bytemuck = { version = "1.14.0", features = ["derive"] }
+spl-token-2022 = { version = "0.9.0", features = ["no-entrypoint"] }
+
+[dev-dependencies]
+litesvm = "0.1.0"
+solana-sdk = "1.18.26"
