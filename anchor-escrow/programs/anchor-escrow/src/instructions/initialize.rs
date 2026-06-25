@@ -32,7 +32,7 @@ pub struct InitializeEscrow<'info> {
     #[account(
         init,
         payer = maker,
-        space = AnchorStablecoinEscrow::INIT_SPACE,
+        space = 8 + AnchorStablecoinEscrow::INIT_SPACE,
         seeds = [
             b"escrow",
             maker.key().as_ref(),
