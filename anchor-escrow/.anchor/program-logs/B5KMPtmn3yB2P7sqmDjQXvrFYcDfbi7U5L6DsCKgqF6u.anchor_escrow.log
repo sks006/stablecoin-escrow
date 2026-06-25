@@ -1,0 +1,64 @@
+Streaming transaction logs mentioning B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u. Confirmed commitment
+Transaction executed in slot 27:
+  Signature: vWWEEGDjpTS3mVCEWr8L9BKfV5RQYQGVC7E1LXZpwWSdHRyYMz3J5DSN5SySxSm6depZC2J1r2U5peTtDipHwNd
+  Status: Ok
+  Log Messages:
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u invoke [1]
+    Program log: Instruction: InitializeEscrow
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: InitializeAccount3
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1416 of 186917 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: TransferChecked
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1627 of 182279 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program data: 3rqdL5GOsPjFHR7w8yzEbnCcAqbcUfqtgBZWkiYmlrdDUdHhx1aADk0xA8HAlc27LoIJGAiYL1NRDDe5ZEOF5XM0FJVWApp4AGXNHQAAAAD/xR0e8PMsxG5wnAKm3FH6rYAWVpImJpa3Q1HR4cdWgA4=
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u consumed 20692 of 200000 compute units
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u success
+Transaction executed in slot 28:
+  Signature: 2awPS5W3os5xkQH9cuSY6zDpUgwa2dzLPfZk1E6oXoQpE5jgSQzeMpj8TB4ajEdq36ZNjhdrr1NrPmEstAP2oV6o
+  Status: Ok
+  Log Messages:
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u invoke [1]
+    Program log: Instruction: ExecuteTransfer
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: TransferChecked
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1627 of 191332 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: TransferChecked
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1627 of 187398 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: CloseAccount
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1115 of 183986 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program data: nKtBSi2uH4LFHR7w8yzEbnCcAqbcUfqtgBZWkiYmlrdDUdHhx1aADk0xA8HAlc27LoIJGAiYL1NRDDe5ZEOF5XM0FJVWApp4MFK6HQAAAADQEhMAAAAAAA==
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u consumed 18183 of 200000 compute units
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u success
+Transaction executed in slot 29:
+  Signature: 2awPS5W3os5xkQH9cuSY6zDpUgwa2dzLPfZk1E6oXoQpE5jgSQzeMpj8TB4ajEdq36ZNjhdrr1NrPmEstAP2oV6o
+  Status: Ok
+  Log Messages:
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u invoke [1]
+    Program log: Instruction: ExecuteTransfer
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: TransferChecked
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1627 of 191332 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: TransferChecked
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1627 of 187398 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+    Program log: Instruction: CloseAccount
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1115 of 183986 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+    Program data: nKtBSi2uH4LFHR7w8yzEbnCcAqbcUfqtgBZWkiYmlrdDUdHhx1aADk0xA8HAlc27LoIJGAiYL1NRDDe5ZEOF5XM0FJVWApp4MFK6HQAAAADQEhMAAAAAAA==
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u consumed 18183 of 200000 compute units
+    Program B5KMPtmn3yB2P7sqmDjQXvrFYcDfbi7U5L6DsCKgqF6u success
